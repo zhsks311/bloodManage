@@ -1,0 +1,43 @@
+/* CommandBar.css */
+
+.g-panel.g-layout-absolute-wrapper > .g-command-bar {
+	// Box Properties
+
+	top: initial;
+}
+.g-command-bar {
+	// Background Properties
+
+	background: @g-icon-commandbar no-repeat;
+
+	// Box Properties
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 116px;
+	text-align: center;
+
+	// Transform Properties
+
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.g-command-bar > * {
+	// Box Properties
+
+	margin: 24px 0 24px 48px;
+}
+.g-command-bar > :first-child {
+	// Box Properties
+
+	margin-left: 0;
+	width: 68px;
+	height: 68px;
+}
+.g-command-bar > :nth-child(2) {
+	// Box Properties
+	
+	width: 68px;
+	height: 68px;
+}

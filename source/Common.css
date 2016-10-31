@@ -1,0 +1,87 @@
+/* HelloWorldSample.css */
+
+.main-view {
+	background-color: #121519;
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.g-sample-hello {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.wheel-slider-ok-image {
+	background: url(../assets/btn_command_done.svg) no-repeat;
+	width: 68px;
+	height: 68px;
+	border-radius: 9999px;
+	pointer-events: auto;
+	margin: 0 75px 0 17px;
+}
+.wheel-slider-cancel-image {
+	background: url(../assets/btn_command_close.svg) no-repeat;
+	width: 68px;
+	height: 68px;
+	border-radius: 9999px;
+	pointer-events: auto;
+	margin: 0 17px 0 75px;
+}
+
+.no-height{
+	height:0px;
+}
+.list-region{
+	margin-left: 0px;
+	/*padding-left:60px;*/
+	margin-top: 60px;
+	height: 260px;
+}
+.list-item{
+	margin-left:60px;;
+	height: 50px;
+}
+.large-text{
+	font-size: 24px;
+}
+.small-text{
+	font-size: 12px;
+}
+.list_divider{
+	background-color: white;
+	width: 100%;
+	height: 1px;
+}
+
+.g-sample-datalist-item {
+	height: 72px;
+	line-height: 72px;
+	cursor: pointer;
+}
+.g-sample-datalist-item.selected {
+	background-color: rgba(230, 230, 230, 0.4);
+}
+.g-sample-datalist-item-title {
+	position: absolute;
+	display: inline;
+	width: 186px;
+	height: 72px;
+	font-size: 28px;
+	color: #FAFAFA;
+	margin-left: 10px;
+	margin-top: -15px;
+	-webkit-mask-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), #FFFFFF 28px, #FFFFFF);
+	-webkit-mask-image: linear-gradient(right, rgba(0, 0, 0, 0), #FFFFFF 28px, #FFFFFF);
+}
+.g-sample-datalist-item-genre {
+	position: absolute;
+	display: inline;
+	font-size: 22px;
+	color: #A0A0A0;
+	margin-left: 10px;
+	margin-top: 16px;
+}

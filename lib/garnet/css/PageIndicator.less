@@ -1,0 +1,95 @@
+/* PageIndicator.css */
+
+.g-page-indicator {
+	// Box Properties
+
+	position: absolute;
+	width: 100px;
+	height: 8px;
+	margin: 8px 110px 0;
+	top: 0;
+
+	// Text Properties
+
+	text-align: center;
+	line-height: @g-page-indicator-font-size;
+
+	// Font Properties
+
+	font-size: @g-page-indicator-font-size;
+
+	// Basic User Interface Properties
+
+	.g-common-hw-accelerated;
+}
+.page-indicator-container {
+	// Box Properties
+
+	width: @g-width;
+	height: 24px;
+
+	// Basic User Interface Properties
+
+	pointer-events: none;
+}
+.g-panel > .g-panel-fadeout {
+	// Box Properties
+
+	position: absolute;
+	top: 0;
+	width: 320px;
+	height: 24px;
+
+	// Basic User Interface Properties
+
+	pointer-events: none;
+}
+.g-panelset.fadeout .g-panel > .g-panel-fadeout {
+	// Background Properties
+
+	background: url(../images/ab_navigation_bg.svg) no-repeat;
+}
+.g-panelset.fadeout .g-panel.g-panel-page-indicator-fade-out-disable > .g-panel-fadeout {
+	background: none;
+}
+.g-page-indicator .g-page-indicator-decorator {
+	// Box Properties
+
+	height: 8px;
+}
+.g-page-indicator .g-page-indicator-decorator > * {
+	// Box Properties
+
+	vertical-align: inherit;
+}
+.g-page-indicator .g-page-indicator-icon {
+	// Background Properties
+
+	background-color: #a0a0a0;
+
+	// Box Properties
+
+	width: 8px;
+	height: 8px;
+	border-radius: 9999px;
+	margin: 0 6px;
+
+ 	// Color Properties
+
+	opacity: 0.6;
+}
+.g-page-indicator .g-page-indicator-icon.current {
+	// Background Properties
+
+	background-color: @g-color-point;
+
+	// Color Properties
+
+	opacity: 1.0;
+}
+.g-page-indicator .hide {
+	// Transform Properties
+	
+	-webkit-transform: translate3d(-320px, 0, 0);
+	transform: translate3d(-320px, 0, 0);
+}

@@ -1,0 +1,11 @@
+{
+	"id": "com.sample.app.ui",
+	"version": "1.0.0",
+	"vendor": "Test",
+	"type": "web",
+	"main": "index.html",
+	"title": "Love 36.5",
+	"icon": "./assets/icon.png",
+	"enyoBundleVersion": "1.0-alpha-3",
+	"splashBackground": "./assets/splash.png"
+}

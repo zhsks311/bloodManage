@@ -1,0 +1,18 @@
+{
+	"id": "com.sample.app.ui",
+	"version": "1.0.0",
+	"vendor": "Test",
+	"type": "web",
+	"main": "index.html",
+	"title": "Love 36.5",
+	"icon": "./assets/icon.png",
+	"enyoBundleVersion": "1.0-alpha-3",
+	"onDeviceSource": {
+		"enyo": "$frameworks/enyo-bundle/1.0-alpha-3/enyo",
+		"lib/garnet": "$frameworks/enyo-bundle/1.0-alpha-3/lib/garnet",
+		"lib/enyo-webos": "$frameworks/enyo-bundle/1.0-alpha-3/lib/enyo-webos",
+		"lib/enyo-ilib": "$frameworks/enyo-bundle/1.0-alpha-3/lib/enyo-ilib",
+		"lib/enyo-cordova": "$frameworks/enyo-bundle/1.0-alpha-3/lib/enyo-cordova"
+	},
+  "splashBackground":"./assets/splash.png"
+}

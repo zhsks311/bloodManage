@@ -1,0 +1,30 @@
+﻿/* HelloWorldSample.css */
+
+.main-view {
+	background-color: #121519;
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.g-sample-hello {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.map-region
+{
+	width: 320px;
+	height: 320px;
+}
+
+.text-region
+{
+	position: relative;
+	z-index: 10;
+	top: -150px;
+	background-color: red;
+}

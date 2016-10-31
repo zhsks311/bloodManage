@@ -1,0 +1,102 @@
+/* Title.css */
+
+.g-title {
+	// Background Properties
+
+	background-color: #000;
+
+	// Box Properties
+
+	position: absolute;
+	width: 168px;
+	height: 60px;
+	top: 0;
+	padding: 0 76px;
+}
+.g-title-mask-fade-out {
+	// Masking Properties
+
+	-webkit-mask-image: -webkit-linear-gradient(right, rgba(0,0,0,0) 24px, rgba(0,0,0,1) 34px);
+	-webkit-mask-image: linear-gradient(right, rgba(0,0,0,0) 24px, rgba(0,0,0,1) 34px);
+}
+.g-title-mask-fade-out-no-icon {
+	// Masking Properties
+
+	-webkit-mask-image: -webkit-linear-gradient(right, rgba(0,0,0,0) 10px, rgba(0,0,0,1) 20px);
+	-webkit-mask-image: linear-gradient(right, rgba(0,0,0,0) 10px, rgba(0,0,0,1) 20px);
+}
+.g-title.g-title-icon .g-title-content {
+	.g-title-mask-fade-out;
+
+	// Box Properties
+
+	max-width: 168px;
+}
+.g-title-content {
+
+	.g-title-mask-fade-out-no-icon;
+
+	// Box Properties
+
+	display: inline-block;
+	width: 100%;
+	padding-top: 25px;
+	overflow: hidden;
+
+	// Color Propertie
+
+	color: @g-default-font-color;
+
+	// Text Properties
+
+	text-overflow: clip;
+	text-align: center;
+	white-space: nowrap;
+	line-height: 27px;
+
+	// Font Properties
+
+	font-weight: 800;
+	font-size: @g-title-content-font-size;
+}
+.g-title:after {
+	// Box Properties
+
+	position: absolute;
+	top: 0;
+	bottom: -7px;
+	left: 0;
+	right: 0;
+
+	// Basic User Interface Properties
+
+	content:'';
+}
+.g-title.g-title-icon .g-title-content:before {
+	// Background Properties
+
+	background: @g-icon-drawer-menu no-repeat;
+
+	// Box Properties
+
+	display: inline-block;
+	width: 22px;
+	height: 20px;
+	margin-right: 3px;
+
+	// Basic User Interface Properties
+
+	content:'';
+}
+.g-title.g-title-icon .g-title-content:after {
+	// Box Properties
+
+	display: inline-block;
+	width: 22px;
+	height: 20px;
+	margin-left: 3px;
+
+	// Basic User Interface Properties
+
+	content:'';
+}

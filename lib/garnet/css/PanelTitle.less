@@ -1,0 +1,25 @@
+/* PanelTitle.css */
+
+.g-panel-title {
+	// Trasnform Properties
+
+	-webkit-transform: translateY(-100%) translateZ(0);
+	transform: translateY(-100%) translateZ(0);
+
+	// Transition Properties
+
+	-webkit-transition: -webkit-transform 0.0001s ease;
+	transition: transform 0.0001s ease;
+}
+.g-panel-title.animate {
+	// Transition Properties
+
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+}
+.g-panel-title.showing {
+	// Transform Properties
+	
+	-webkit-transform: translateY(0) translateZ(0);
+	transform: translateY(0) translateZ(0);
+}
